@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atenea</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="C:\Users\User\Desktop\Atenea Page\styles\idea_huilipan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <header id="header">
-        <img src="C:\Users\User\Desktop\Atenea Page\imagenes\logo1.png">
-        <nav>
+        <img class="animate__animated animate__fadeInLeft" src="C:\Users\User\Desktop\Atenea Page\imagenes\logo1.png">
+        <nav class="animate__animated animate__fadeInDownBig">
             <ul class="menu">
 
                 <li><a href="C:\Users\User\Desktop\Atenea Page\pages\index.html">Home</a></li>
@@ -23,24 +25,21 @@
             </ul>
         </nav>
 
-        
-    </header>
 
-    <section id="socios">
-        <form class="socios" action="../form-result.php" target="_blank">
-    
-            <label>Nombre<input type="text" name="nombrecompleto"></label>
-          
-            <label>Deja un mensaje:
-          
-              <textarea name="mensaje"></textarea>
-          
-            </label>
-          <br>
-            <input type="submit" value="Enviar la información">
-          
-          </form>
+    </header>
+    <main class="contacto">
+        <img class="imgcontacto" src="C:\Users\User\Desktop\Atenea Page\imagenes\57414042-1FE4-4743-AD9D-FCBDA683ED2B.jpg" alt="">
+        <section id="socios">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
         </section>
+    </main>
     <footer id="footer">
         <a href="https://www.instagram.com/atenea.bbca/">Instagram</a>
     </footer>

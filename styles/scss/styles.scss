@@ -27,21 +27,37 @@ body {
     height: 75vh;
 
 }
-#carouselExampleControls{
+
+#main section{
     width: 100%;
-    height: 50%;
+    height: 75vh;
+    padding-top: 15px;
+    align-self: center;
 
 }
-.carousel-item {
+
+#main section img{
+    width: 80%;
+    height: 70vh;
+    position: fixed;
+}
+
+
+#carouselExampleControls{
     width: 100%;
+    height: 70vh;
+    position: fixed;
+}
+.carousel-item {
+    width: 80%;
     height: 100%;
     
 }
 
 .carousel-item img {
     object-fit: cover;
-    width: 100%;
-    height: 75vh;
+    width: 80%;
+    height: 70vh;
 
 }
 
@@ -64,7 +80,7 @@ body {
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px;
+    grid-template-rows: repeat(3,250px);
     grid-gap: 20px;
 
 }
@@ -82,6 +98,51 @@ body {
 
 .galeria .boximg:nth-child(5) {
     grid-row-start: span 2;
+}
+
+.contacto{
+width: 100%;
+height: 75vh;
+background-image: linear-gradient(to right, white, rgb(180, 253, 177));
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.imgcontacto{
+    flex: 1;
+    width: 60%;
+    padding: 50px;
+    height: 50vh;
+}
+
+#socios{
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mb-3{
+    text-align: center;
+}
+
+#exampleFormControlTextarea1{
+    height: 277px;
+    width: 426px;    
+}
+
+.form-label{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    
 }
 
 .comprar {
@@ -108,30 +169,40 @@ body {
 }
 
 .nosotros{
-    background-color: #b4fdb1;
+    background-color: white;
     width: 100%;
     height: 75vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nosotros h1{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: unset;
+   color: rgb(87, 231, 135);
     text-align: center;
     margin: 0%;
     justify-content: center;
-    align-self: flex-start;    
-    height: 20vh;
+   text-align: center;    
 }
 
-.nosotros p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
-    justify-content: center;
-    text-align: center;
-    margin: 0%;
-    justify-content: center;
-    align-self: flex-end;
-    height: 30vh;
+.nosotros section{
+
+    width: 100%;
+    height: 60vh;
+    padding: 25px;
+    justify-self: center;
+  }
+
+.carousel-item{
+    width: 100%;
+    height: 50vh;
+   
+}
+.nosotros img{
+width: 100%;
+height: 60vh;
 }
 
 
@@ -256,12 +327,31 @@ flex-direction: row;
 }
 
 .nosotros{
-background-color: aliceblue;
-
+    background-color: #b4fdb1;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.nosotros h1{
-text-align: center;
+.nosotros h1{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0%;
+    justify-content: center;
+   text-align: center;    
+  
+}
+.nosotros section{
+    width: 75%;
+    height: 60vh;
+    padding: 25px;
+    align-self: center;
+  }
+
+.carrousel img{
+width: 100%;
+height: 60vh;
 }
 footer {
     height: 5vh;
@@ -388,6 +478,33 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.nosotros{
+    background-color: #b4fdb1;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros h1{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0%;
+    justify-content: center;
+   text-align: center;    
+  
+}
+.nosotros section{
+    width: 75%;
+    height: 60vh;
+    padding: 25px;
+    align-self: center;
+  }
+
+.carrousel img{
+width: 100%;
+height: 60vh;
+}
 
 #footer {
     height: 5vh;
