@@ -147,25 +147,38 @@ flex-wrap: wrap;
 
 .comprar {
     display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(180, 253, 177);
+    flex-direction: row;
+    background-color: white;
     height: 75vh;
 }
 
-.comocomprar {
-    flex: 1;
+.comocomprar {display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin: 100px;
-    min-width: 250px;
+    font-size: medium;
+    height: 50vh;
+    width: 100%;
+    background-color: #b4fdb1;
+    justify-content: center;
+    align-content: center;
 
-}
+ }
 
-.registro {
+ .registro{display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #b4fdb1;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+ }
+.registro form{display: flex;
     text-align: center;
-    flex: 2;
-    margin: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .nosotros{
@@ -463,6 +476,7 @@ footer {
 }
 
 .comocomprar {
+ 
     flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
