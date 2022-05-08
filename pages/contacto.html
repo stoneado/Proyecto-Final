@@ -27,21 +27,60 @@
 
 
     </header>
-    <main class="contacto">
-        <img class="imgcontacto" src="C:\Users\User\Desktop\Atenea Page\imagenes\57414042-1FE4-4743-AD9D-FCBDA683ED2B.jpg" alt="">
-        <section id="socios">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Mail</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-        </section>
-    </main>
+
+    <div class="contact_form">
+
+        <div class="formulario">
+            <h1>Contactate con nosotros</h1>
+            <form action="submeter-formulario.php" method="post">
+
+
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
+
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+
+            </form>
+        </div>
+    </div>
+  
     <footer id="footer">
         <a href="https://www.instagram.com/atenea.bbca/">Instagram</a>
     </footer>
 </body>
+
 </html>
